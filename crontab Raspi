@@ -1,0 +1,18 @@
+*       *       *       *       *       curl -s -G "http://www.urban-radio.com/titrage/twittercast-master/icecast.php"
+*       *       *       *       *       for i in 0 1 2 3 ; do wget http://www.urban-radio.com/titrage/tunein-cron.php -O /dev/null & sleep 15; done
+00      17      *       *       1       /usr/bin/python SillyTweeter/SillyTweeter.py '17h-18h - @LeReseauUrbain http://www.urban-radio.com/content/le-r%C3%A9seau-urbain'
+00      19      *       *       1       /usr/bin/python SillyTweeter/SillyTweeter.py 'Un Morceau d'Histoire du Rock - L'émission http://www.urban-radio.com/content/un-morceau-dhistoire-du-rock'
+30      21      *       *       1       /usr/bin/python SillyTweeter/SillyTweeter.py 'Metal From The Crypt - L'émission http://www.urban-radio.com/content/metal-crypt'
+00      23      *       *       1       /usr/bin/python SillyTweeter/SillyTweeter.py 'Punk Is Dead - L'émission http://www.urban-radio.com/content/punk-dead'
+00      17      *       *       2       /usr/bin/python SillyTweeter/SillyTweeter.py '17h-18h - @LeReseauUrbain http://www.urban-radio.com/content/le-r%C3%A9seau-urbain'
+00      21      *       *       2       /usr/bin/python SillyTweeter/SillyTweeter.py 'Chunky Monkey - L'émission http://www.urban-radio.com/content/chunky-monkey'
+00      22      *       *       2       /usr/bin/python SillyTweeter/SillyTweeter.py 'Platines Vagabondes - L'émission http://www.urban-radio.com/content/platines-vagabondes'
+00      17      *       *       3       /usr/bin/python SillyTweeter/SillyTweeter.py '17h-18h - @LeReseauUrbain http://www.urban-radio.com/content/le-r%C3%A9seau-urbain'
+00      18      *       *       3       /usr/bin/python SillyTweeter/SillyTweeter.py '18h-19h - @BTLRoche http://www.urban-radio.com/content/bouge-toi-la-roche'
+00      21      *       *       3       /usr/bin/python SillyTweeter/SillyTweeter.py '21h-22h - @steakpatates https://twitter.com/steakpatates'
+00      17      *       *       4       /usr/bin/python SillyTweeter/SillyTweeter.py '17h-18h - @LeReseauUrbain http://www.urban-radio.com/content/le-r%C3%A9seau-urbain'
+00      18      *       *       4       /usr/bin/python SillyTweeter/SillyTweeter.py '18h-19h - @fines_gueules http://www.urban-radio.com/content/les-fines-gueules'
+00      22      *       *       4       /usr/bin/python SillyTweeter/SillyTweeter.py '22h-minuit - @fallaitpasldire https://twitter.com/fallaitpasldire'
+00      17      *       *       5       /usr/bin/python SillyTweeter/SillyTweeter.py '17h-18h - @LeReseauUrbain http://www.urban-radio.com/content/le-r%C3%A9seau-urbain'
+00      19      *       *       5       /usr/bin/python SillyTweeter/SillyTweeter.py 'Dusty Party - L'émission http://www.urban-radio.com/content/dusty-party'
+00      21      *       *       5       /usr/bin/python SillyTweeter/SillyTweeter.py 'Raggamuffin - L'émission http://www.urban-radio.com/content/raggamuffin'
