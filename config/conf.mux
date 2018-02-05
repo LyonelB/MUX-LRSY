@@ -19,55 +19,55 @@ ensemble {
 services {
     srv_radio1 {
         label "JET FM"
-        id 0xA004
+        id 0x1004
     }
     srv_radio2 {
         label "GRAFFITI"
-        id 0xA005
+        id 0x1005
     }
     srv_radio3 {
         label "SUN"
-        id 0xA014
+        id 0x1014
     }
     srv_radio4 {
         label "EURADIO"
-        id 0xA015
+        id 0x1015
     }
     srv_radio5 {
         label "RCA"
-        id 0xB004
+        id 0x2004
     }
     srv_radio6 {
         label "BONHEUR"
-        id 0xB011
+        id 0x2011
     }
     srv_radio7 {
         label "OCEANE"
-        id 0xB014
+        id 0x2014
     }
     srv_radio8 {
         label "FORUM"
-        id 0xB015
+        id 0x2015
     }
     srv_radio9 {
         label "MARIA"
-        id 0xD003
+        id 0x4003
     }
     srv_radio10 {
         label "ORIENT"
-        id 0xD006
+        id 0x4006
     }
     srv_radio11 {
         label "MELODY"
-        id 0xD011
+        id 0x4011
     }
     srv_radio12 {
         label "CAPSAO"
-        id 0xD019
+        id 0x4019
     }
     srv_radio13 {
         label "PITCHOUN"
-        id 0xD020
+        id 0x4020
     }
 }
 
