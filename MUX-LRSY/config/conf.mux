@@ -213,77 +213,70 @@ components {
         subchannel sub_radio3
         figtype 0x2
     }
-        comp_radio4 {
+    comp_radio4 {
         label "EURADIO"
         shortlabel "EURADIO"
         service srv_radio4
         subchannel sub_radio4
         figtype 0x2
     }
-        comp_radio4 {
-        label "EURADIO"
-        shortlabel "EURADIO"
-        service srv_radio4
-        subchannel sub_radio4
-        figtype 0x2
-    }
-        comp_radio5 {
+    comp_radio5 {
         label "RCA"
         shortlabel "RCA"
         service srv_radio5
         subchannel sub_radio5
         figtype 0x2
     }
-        comp_radio6 {
+    comp_radio6 {
         label "BONHEUR"
         shortlabel "BONHEUR"
         service srv_radio6
         subchannel sub_radio6
         figtype 0x2
     }    
-        comp_radio7 {
+    comp_radio7 {
         label "OCEANE"
         shortlabel "OCEANE"
         service srv_radio7
         subchannel sub_radio7
         figtype 0x2
     }
-        comp_radio8 {
+    comp_radio8 {
         label "FORUM"
         shortlabel "FORUM"
         service srv_radio8
         subchannel sub_radio8
         figtype 0x2
     }
-        comp_radio9 {
+    comp_radio9 {
         label "MARIA"
         shortlabel "MARIA"
         service srv_radio9
         subchannel sub_radio9
         figtype 0x2
     }
-        comp_radio10 {
+    comp_radio10 {
         label "ORIENT"
         shortlabel "ORIENT"
         service srv_radio10
         subchannel sub_radio10
         figtype 0x2
     }
-        comp_radio11 {
+    comp_radio11 {
         label "MELODY"
         shortlabel "MELODY"
         service srv_radio11
         subchannel sub_radio11
         figtype 0x2
     }
-        comp_radio12 {
+    comp_radio12 {
         label "CAPSAO"
         shortlabel "CAPSAO"
         service srv_radio12
         subchannel sub_radio12
         figtype 0x2
     }
-        comp_radio13 {
+    comp_radio13 {
         label "PITCHOUN"
         shortlabel "PITCHOUN"
         service srv_radio13
