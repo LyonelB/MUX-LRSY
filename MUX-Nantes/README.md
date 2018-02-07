@@ -3,7 +3,7 @@
 ## Radio 1
 
 Radio Kerne
-radiokerne.ice.infomaniak.ch/radiokerne-192.mp3
+http://radiokerne.ice.infomaniak.ch/radiokerne-192.mp3
 
 ## Radio 2
 
