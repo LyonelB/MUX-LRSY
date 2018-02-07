@@ -43,7 +43,7 @@ http://streaming.prun.net/streamprun
 ## Radio 9
 
 Radio Atlantis FM
-http://91.121.153.12:9006/atlantis128
+http://91.121.153.12:9006/atlantis320
 
 ## Radio 10
 
