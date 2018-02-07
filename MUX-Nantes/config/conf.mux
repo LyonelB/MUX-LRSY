@@ -10,63 +10,63 @@ remotecontrol {
 ensemble {
     id 0xF005
     ecc 0xE1
-    label "MUX LRSY"
-    shortlabel "MUX LRSY"
+    label "MUX NANTES LOCAL"
+    shortlabel "MUX NANTES"
     international-table 1
     local-time-offset auto
 }
 
 services {
     srv_radio1 {
-        label "JET FM"
+        label "KERNE"
         id 0x1004
     }
     srv_radio2 {
-        label "GRAFFITI"
+        label "JET"
         id 0x1005
     }
     srv_radio3 {
-        label "SUN"
+        label "ALTERNANTES"
         id 0x1014
     }
     srv_radio4 {
-        label "EURADIO"
+        label "SUN"
         id 0x1015
     }
     srv_radio5 {
-        label "RCA"
+        label "EURADIO"
         id 0x2004
     }
     srv_radio6 {
-        label "BONHEUR"
+        label "FIDELITE"
         id 0x2011
     }
     srv_radio7 {
-        label "OCEANE"
+        label "NTI"
         id 0x2014
     }
     srv_radio8 {
-        label "FORUM"
+        label "PRUN"
         id 0x2015
     }
     srv_radio9 {
-        label "MARIA"
+        label "ATLANTIS"
         id 0x4003
     }
     srv_radio10 {
-        label "ORIENT"
+        label "KERNEWS"
         id 0x4006
     }
     srv_radio11 {
-        label "MELODY"
+        label "CAROLINE"
         id 0x4011
     }
     srv_radio12 {
-        label "CAPSAO"
+        label "RCA"
         id 0x4019
     }
     srv_radio13 {
-        label "PITCHOUN"
+        label "OCEANE"
         id 0x4020
     }
 }
@@ -193,99 +193,92 @@ subchannels {
 
 components {
     comp_radio1 {
-        label "JET FM"
-        shortlabel "JET"
+        label "KERNE"
+        shortlabel "KERNE"
         service srv_radio1
         subchannel sub_radio1
         figtype 0x2
     }
     comp_radio2 {
-        label "GRAFFFITI"
-        shortlabel "GRAFFITI"
+        label "JET"
+        shortlabel "JET"
         service srv_radio2
         subchannel sub_radio2
         figtype 0x2
     }
     comp_radio3 {
-        label "SUN"
-        shortlabel "SUN"
+        label "ALTERNANTES"
+        shortlabel "ALTERNANTES"
         service srv_radio3
         subchannel sub_radio3
         figtype 0x2
     }
-        comp_radio4 {
-        label "EURADIO"
-        shortlabel "EURADIO"
+    comp_radio4 {
+        label "SUN"
+        shortlabel "SUN"
         service srv_radio4
         subchannel sub_radio4
         figtype 0x2
     }
-        comp_radio4 {
+    comp_radio5 {
         label "EURADIO"
         shortlabel "EURADIO"
-        service srv_radio4
-        subchannel sub_radio4
-        figtype 0x2
-    }
-        comp_radio5 {
-        label "RCA"
-        shortlabel "RCA"
         service srv_radio5
         subchannel sub_radio5
         figtype 0x2
     }
-        comp_radio6 {
-        label "BONHEUR"
-        shortlabel "BONHEUR"
+    comp_radio6 {
+        label "FIDELITE"
+        shortlabel "FIDELITE"
         service srv_radio6
         subchannel sub_radio6
         figtype 0x2
     }    
-        comp_radio7 {
-        label "OCEANE"
-        shortlabel "OCEANE"
+    comp_radio7 {
+        label "NTI"
+        shortlabel "NTI"
         service srv_radio7
         subchannel sub_radio7
         figtype 0x2
     }
-        comp_radio8 {
-        label "FORUM"
-        shortlabel "FORUM"
+    comp_radio8 {
+        label "PRUN"
+        shortlabel "PRUN"
         service srv_radio8
         subchannel sub_radio8
         figtype 0x2
     }
-        comp_radio9 {
-        label "MARIA"
-        shortlabel "MARIA"
+    comp_radio9 {
+        label "ATLANTIS"
+        shortlabel "ANTLANTIS"
         service srv_radio9
         subchannel sub_radio9
         figtype 0x2
     }
-        comp_radio10 {
-        label "ORIENT"
-        shortlabel "ORIENT"
+    comp_radio10 {
+        label "KERNEWS"
+        shortlabel "KERNEWS"
         service srv_radio10
         subchannel sub_radio10
         figtype 0x2
     }
-        comp_radio11 {
-        label "MELODY"
-        shortlabel "MELODY"
+    comp_radio11 {
+        label "CAROLINE"
+        shortlabel "CAROLINE"
         service srv_radio11
         subchannel sub_radio11
         figtype 0x2
     }
-        comp_radio12 {
-        label "CAPSAO"
-        shortlabel "CAPSAO"
+    comp_radio12 {
+        label "RCA"
+        shortlabel "RCA"
         service srv_radio12
         subchannel sub_radio12
         figtype 0x2
     }
-        comp_radio13 {
-        label "PITCHOUN"
-        shortlabel "PITCHOUN"
+    comp_radio13 {
+        label "OCEANE"
+        shortlabel "OCEANE"
         service srv_radio13
         subchannel sub_radio13
         figtype 0x2
