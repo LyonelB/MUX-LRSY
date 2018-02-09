@@ -18,7 +18,7 @@ ensemble {
 
 services {
     srv_radio1 {
-        label "JET FM"
+        label "JET"
         id 0x1004
     }
     srv_radio2 {
@@ -193,14 +193,14 @@ subchannels {
 
 components {
     comp_radio1 {
-        label "JET FM"
+        label "JET"
         shortlabel "JET"
         service srv_radio1
         subchannel sub_radio1
         figtype 0x2
     }
     comp_radio2 {
-        label "GRAFFFITI"
+        label "GRAFFITI"
         shortlabel "GRAFFITI"
         service srv_radio2
         subchannel sub_radio2
