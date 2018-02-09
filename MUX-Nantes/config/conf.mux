@@ -75,117 +75,117 @@ subchannels {
     sub_radio1 {
         type dabplus
         inputfile "tcp://*:9001"
-        zmq-buffer 96
-        zmq-prebuffering 48
-        bitrate 128
+        zmq-buffer 40
+        zmq-prebuffering 20
+        bitrate 80
         id 1
         protection 3
     }
     sub_radio2 {
         type dabplus
         inputfile "tcp://*:9002"
-        zmq-buffer 96
-        zmq-prebuffering 48
-        bitrate 128
+        zmq-buffer 40
+        zmq-prebuffering 20
+        bitrate 80
         id 2
         protection 3
     }
     sub_radio3 {
         type dabplus
         inputfile "tcp://*:9003"
-        zmq-buffer 96
-        zmq-prebuffering 48
-        bitrate 128
+        zmq-buffer 40
+        zmq-prebuffering 20
+        bitrate 80
         id 3
         protection 3
     }
     sub_radio4 {
         type dabplus
         inputfile "tcp://*:9004"
-        zmq-buffer 96
-        zmq-prebuffering 48
-        bitrate 128
+        zmq-buffer 40
+        zmq-prebuffering 20
+        bitrate 80
         id 4
         protection 3
     }    
     sub_radio5 {
         type dabplus
         inputfile "tcp://*:9005"
-        zmq-buffer 96
-        zmq-prebuffering 48
-        bitrate 128
+        zmq-buffer 40
+        zmq-prebuffering 20
+        bitrate 80
         id 5
         protection 3
     }   
     sub_radio6 {
         type dabplus
         inputfile "tcp://*:9006"
-        zmq-buffer 96
-        zmq-prebuffering 48
-        bitrate 128
+        zmq-buffer 40
+        zmq-prebuffering 20
+        bitrate 80
         id 6
         protection 3
     }   
     sub_radio7 {
         type dabplus
         inputfile "tcp://*:9007"
-        zmq-buffer 96
-        zmq-prebuffering 48
-        bitrate 128
+        zmq-buffer 40
+        zmq-prebuffering 20
+        bitrate 80
         id 7
         protection 3
     }   
     sub_radio8 {
         type dabplus
         inputfile "tcp://*:9008"
-        zmq-buffer 96
-        zmq-prebuffering 48
-        bitrate 128
+        zmq-buffer 40
+        zmq-prebuffering 20
+        bitrate 80
         id 8
         protection 3
     }   
     sub_radio9 {
         type dabplus
         inputfile "tcp://*:9009"
-        zmq-buffer 96
-        zmq-prebuffering 48
-        bitrate 128
+        zmq-buffer 40
+        zmq-prebuffering 20
+        bitrate 80
         id 9
         protection 3
     }   
     sub_radio10 {
         type dabplus
         inputfile "tcp://*:9010"
-        zmq-buffer 96
-        zmq-prebuffering 48
-        bitrate 128
+        zmq-buffer 40
+        zmq-prebuffering 20
+        bitrate 80
         id 10
         protection 3
     }   
     sub_radio11 {
         type dabplus
         inputfile "tcp://*:9011"
-        zmq-buffer 96
-        zmq-prebuffering 48
-        bitrate 128
+        zmq-buffer 40
+        zmq-prebuffering 20
+        bitrate 80
         id 11
         protection 3
     }   
     sub_radio12 {
         type dabplus
         inputfile "tcp://*:9012"
-        zmq-buffer 96
-        zmq-prebuffering 48
-        bitrate 128
+        zmq-buffer 40
+        zmq-prebuffering 20
+        bitrate 80
         id 12
         protection 3
     }   
     sub_radio13 {
         type dabplus
         inputfile "tcp://*:9013"
-        zmq-buffer 96
-        zmq-prebuffering 48
-        bitrate 128
+        zmq-buffer 40
+        zmq-prebuffering 20
+        bitrate 80
         id 13
         protection 3
     }   
