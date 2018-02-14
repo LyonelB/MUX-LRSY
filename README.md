@@ -1,6 +1,6 @@
 # Préparation
 
-Sur Debian Stretch
+Sur Debian Stretch Mate
 
 Ajoutez l’utilisateur “odr” et donner lui un mot de passe
 
