@@ -17,62 +17,62 @@ ensemble {
 }
 
 services {
-    srv_radio1 {
+    srv_JET {
         label "JET"
         id 0x1004
     }
-    srv_radio2 {
+    srv_GRAFFITI {
         label "GRAFFITI"
         id 0x1005
     }
-    srv_radio3 {
+    srv_SUN {
         label "SUN"
         id 0x1014
     }
-    srv_radio4 {
+    srv_EURADIO {
         label "EURADIO"
         id 0x1015
     }
-    srv_radio5 {
+    srv_RCA {
         label "RCA"
         id 0x2004
     }
-    srv_radio6 {
+    srv_BONHEUR {
         label "BONHEUR"
         id 0x2011
     }
-    srv_radio7 {
+    srv_OCEANE {
         label "OCEANE"
         id 0x2014
     }
-    srv_radio8 {
+    srv_FORUM {
         label "FORUM"
         id 0x2015
     }
-    srv_radio9 {
+    srv_MARIA {
         label "MARIA"
         id 0x4003
     }
-    srv_radio10 {
+    srv_ORIENT {
         label "ORIENT"
         id 0x4006
     }
-    srv_radio11 {
+    srv_MELODY {
         label "MELODY"
         id 0x4011
     }
-    srv_radio12 {
+    srv_CAPSAO {
         label "CAPSAO"
         id 0x4019
     }
-    srv_radio13 {
+    srv_PITCHOUN {
         label "PITCHOUN"
         id 0x4020
     }
 }
 
 subchannels {
-    sub_radio1 {
+    sub_JET {
         type dabplus
         inputfile "tcp://*:9001"
         zmq-buffer 40
@@ -81,7 +81,7 @@ subchannels {
         id 1
         protection 3
     }
-    sub_radio2 {
+    sub_GRAFFITI {
         type dabplus
         inputfile "tcp://*:9002"
         zmq-buffer 40
@@ -90,7 +90,7 @@ subchannels {
         id 2
         protection 3
     }
-    sub_radio3 {
+    sub_SUN {
         type dabplus
         inputfile "tcp://*:9003"
         zmq-buffer 40
@@ -99,7 +99,7 @@ subchannels {
         id 3
         protection 3
     }
-    sub_radio4 {
+    sub_EURADIO {
         type dabplus
         inputfile "tcp://*:9004"
         zmq-buffer 40
@@ -108,7 +108,7 @@ subchannels {
         id 4
         protection 3
     }    
-    sub_radio5 {
+    sub_RCA {
         type dabplus
         inputfile "tcp://*:9005"
         zmq-buffer 40
@@ -117,7 +117,7 @@ subchannels {
         id 5
         protection 3
     }   
-    sub_radio6 {
+    sub_BONHEUR {
         type dabplus
         inputfile "tcp://*:9006"
         zmq-buffer 40
@@ -126,7 +126,7 @@ subchannels {
         id 6
         protection 3
     }   
-    sub_radio7 {
+    sub_OCEANE {
         type dabplus
         inputfile "tcp://*:9007"
         zmq-buffer 40
@@ -135,7 +135,7 @@ subchannels {
         id 7
         protection 3
     }   
-    sub_radio8 {
+    sub_FORUM {
         type dabplus
         inputfile "tcp://*:9008"
         zmq-buffer 40
@@ -144,7 +144,7 @@ subchannels {
         id 8
         protection 3
     }   
-    sub_radio9 {
+    sub_MARIA {
         type dabplus
         inputfile "tcp://*:9009"
         zmq-buffer 40
@@ -153,7 +153,7 @@ subchannels {
         id 9
         protection 3
     }   
-    sub_radio10 {
+    sub_ORIENT {
         type dabplus
         inputfile "tcp://*:9010"
         zmq-buffer 40
@@ -162,7 +162,7 @@ subchannels {
         id 10
         protection 3
     }   
-    sub_radio11 {
+    sub_MELODY {
         type dabplus
         inputfile "tcp://*:9011"
         zmq-buffer 40
@@ -171,7 +171,7 @@ subchannels {
         id 11
         protection 3
     }   
-    sub_radio12 {
+    sub_CAPSAO {
         type dabplus
         inputfile "tcp://*:9012"
         zmq-buffer 40
@@ -180,7 +180,7 @@ subchannels {
         id 12
         protection 3
     }   
-    sub_radio13 {
+    sub_PITCHOUN {
         type dabplus
         inputfile "tcp://*:9013"
         zmq-buffer 40
@@ -192,99 +192,99 @@ subchannels {
 }
 
 components {
-    comp_radio1 {
+    comp_JET {
         label "JET"
         shortlabel "JET"
-        service srv_radio1
-        subchannel sub_radio1
+        service srv_JET
+        subchannel sub_JET
         figtype 0x2
     }
-    comp_radio2 {
+    comp_GRAFFTI {
         label "GRAFFITI"
         shortlabel "GRAFFITI"
-        service srv_radio2
-        subchannel sub_radio2
+        service srv_GRAFFITI
+        subchannel sub_GRAFFITI
         figtype 0x2
     }
-    comp_radio3 {
+    comp_SUN {
         label "SUN"
         shortlabel "SUN"
-        service srv_radio3
-        subchannel sub_radio3
+        service srv_SUN
+        subchannel sub_SUN
         figtype 0x2
     }
-    comp_radio4 {
+    comp_EURADIO {
         label "EURADIO"
         shortlabel "EURADIO"
-        service srv_radio4
-        subchannel sub_radio4
+        service srv_EURADIO
+        subchannel sub_EURADIO
         figtype 0x2
     }
-    comp_radio5 {
+    comp_RCA {
         label "RCA"
         shortlabel "RCA"
-        service srv_radio5
-        subchannel sub_radio5
+        service srv_RCA
+        subchannel sub_RCA
         figtype 0x2
     }
-    comp_radio6 {
+    comp_BONHEUR {
         label "BONHEUR"
         shortlabel "BONHEUR"
-        service srv_radio6
-        subchannel sub_radio6
+        service srv_BONHEUR
+        subchannel sub_BONHEUR
         figtype 0x2
     }    
-    comp_radio7 {
+    comp_OCEANE {
         label "OCEANE"
         shortlabel "OCEANE"
-        service srv_radio7
-        subchannel sub_radio7
+        service srv_OCEANE
+        subchannel sub_OCEANE
         figtype 0x2
     }
-    comp_radio8 {
+    comp_FORUM {
         label "FORUM"
         shortlabel "FORUM"
-        service srv_radio8
-        subchannel sub_radio8
+        service srv_FORUM
+        subchannel sub_FORUM
         figtype 0x2
     }
-    comp_radio9 {
+    comp_MARIA {
         label "MARIA"
         shortlabel "MARIA"
-        service srv_radio9
-        subchannel sub_radio9
+        service srv_MARIA
+        subchannel sub_MARIA
         figtype 0x2
     }
-    comp_radio10 {
+    comp_ORIENT {
         label "ORIENT"
         shortlabel "ORIENT"
-        service srv_radio10
-        subchannel sub_radio10
+        service srv_ORIENT
+        subchannel sub_ORIENT
         figtype 0x2
     }
-    comp_radio11 {
+    comp_MELODY {
         label "MELODY"
         shortlabel "MELODY"
-        service srv_radio11
-        subchannel sub_radio11
+        service srv_MELODY
+        subchannel sub_MELODY
         figtype 0x2
     }
-    comp_radio12 {
+    comp_CAPSAO {
         label "CAPSAO"
         shortlabel "CAPSAO"
-        service srv_radio12
-        subchannel sub_radio12
+        service srv_CAPSAO
+        subchannel sub_CAPSAO
         figtype 0x2
     }
-    comp_radio13 {
+    comp_PITCHOUN {
         label "PITCHOUN"
         shortlabel "PITCHOUN"
-        service srv_radio13
-        subchannel sub_radio13
+        service srv_PITCHOUN
+        subchannel sub_PITCHOUN
         figtype 0x2
     }
 }
 outputs {
-    zmq "zmq+tcp://*:18081"
+    zmq "zmq+tcp://*:9050"
     throttle "simul://" 
 }
