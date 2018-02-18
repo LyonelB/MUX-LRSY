@@ -25,7 +25,7 @@ Et rebootez votre PC :
     $ cd
     $ sudo apt-get install git
     $ git clone https://github.com/LyonelB/ODR-Mux.git
-    $ cd ODR-Mux
+    $ sudo mv /home/odr/ODR-Mux/install.sh /home/odr
     $ chmod +x install.sh
     $ ./install.sh
 
@@ -33,7 +33,6 @@ Et rebootez votre PC :
 
 ### Installation de Supervisor
     
-    $ cd
     $ sudo apt-get install supervisor
     $ sudo mv /home/odr/ODR-Mux/MUX-LRSY/config /home/odr
 
@@ -41,7 +40,6 @@ Et rebootez votre PC :
 
 ### Installation de Supervisor
     
-    $ cd
     $ sudo apt-get install supervisor
     $ sudo mv /home/odr/ODR-Mux/MUX-Nantes/config /home/odr
     
