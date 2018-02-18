@@ -61,6 +61,7 @@ Ajoutez des "liens" à supervisor :
     $ sudo ln -s /home/odr/config/supervisor/enc-radio12.conf /etc/supervisor/conf.d/enc-radio12.conf
     $ sudo ln -s /home/odr/config/supervisor/enc-radio13.conf /etc/supervisor/conf.d/enc-radio13.conf
     $ sudo ln -s /home/odr/config/supervisor/mux.conf /etc/supervisor/conf.d/mux.conf
+    $ sudo ln -s /home/odr/config/supervisor/mod.conf /etc/supervisor/conf.d/mod.conf
     $ sudo nano /etc/supervisor/supervisord.conf
 
 et ajoutez les lignes suivantes :
