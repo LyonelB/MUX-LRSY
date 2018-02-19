@@ -2,7 +2,7 @@
 
 Sur Debian Stretch Mate
 
-Ajoutez l’utilisateur “odr” et donner lui un mot de passe
+Ajoutez l’utilisateur “odr” et donnez lui un mot de passe
 
     $ su
     $ adduser odr
